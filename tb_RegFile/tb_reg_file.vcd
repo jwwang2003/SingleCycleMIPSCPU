@@ -1,0 +1,102 @@
+$date
+	Fri Dec 22 01:07:52 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RegFile_tb $end
+$var wire 32 ! ReadData2 [31:0] $end
+$var wire 32 " ReadData1 [31:0] $end
+$var reg 5 # ReadReg1 [4:0] $end
+$var reg 5 $ ReadReg2 [4:0] $end
+$var reg 1 % RegWrite $end
+$var reg 32 & WriteData [31:0] $end
+$var reg 5 ' WriteReg [4:0] $end
+$var reg 1 ( clock $end
+$scope module uut $end
+$var wire 32 ) ReadData1 [31:0] $end
+$var wire 32 * ReadData2 [31:0] $end
+$var wire 5 + ReadReg1 [4:0] $end
+$var wire 5 , ReadReg2 [4:0] $end
+$var wire 32 - WriteData [31:0] $end
+$var wire 1 % WriteEnable $end
+$var wire 5 . WriteReg [4:0] $end
+$var wire 1 ( clock $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+0(
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+1(
+#20000
+0(
+#30000
+1(
+#40000
+0(
+#50000
+1(
+#60000
+0(
+#70000
+1(
+#80000
+0(
+#90000
+1(
+#100000
+0(
+b10100101101001011010010110100101 &
+b10100101101001011010010110100101 -
+b1 '
+b1 .
+1%
+#110000
+1(
+#120000
+0(
+b1011010010110100101101001011010 &
+b1011010010110100101101001011010 -
+b10 '
+b10 .
+#130000
+1(
+#140000
+0(
+b1011010010110100101101001011010 !
+b1011010010110100101101001011010 *
+b10 $
+b10 ,
+b10100101101001011010010110100101 "
+b10100101101001011010010110100101 )
+b1 #
+b1 +
+0%
+#150000
+1(
+#160000
+0(

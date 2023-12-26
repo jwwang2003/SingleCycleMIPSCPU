@@ -1,0 +1,93 @@
+$date
+	Fri Dec 22 00:51:07 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ControlUnit_tb $end
+$var wire 1 ! WriteReg $end
+$var wire 1 " WriteMem $end
+$var wire 1 # SEXT $end
+$var wire 1 $ REGRT $end
+$var wire 1 % Mem2Reg $end
+$var wire 1 & Jump $end
+$var wire 1 ' Branch $end
+$var wire 1 ( ALUImm $end
+$var wire 4 ) ALUC [3:0] $end
+$var reg 6 * Func [5:0] $end
+$var reg 6 + OP [5:0] $end
+$var reg 1 , Zero $end
+$scope module uut $end
+$var wire 6 - Func [5:0] $end
+$var wire 6 . OP [5:0] $end
+$var wire 1 , Zero $end
+$var reg 4 / ALUC [3:0] $end
+$var reg 1 ( ALUImm $end
+$var reg 1 ' Branch $end
+$var reg 1 & Jump $end
+$var reg 1 % Mem2Reg $end
+$var reg 1 $ REGRT $end
+$var reg 1 # SEXT $end
+$var reg 1 " WriteMem $end
+$var reg 1 ! WriteReg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx /
+b0 .
+b0 -
+0,
+b0 +
+b0 *
+bx )
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#100000
+b10 )
+b10 /
+b100000 *
+b100000 -
+#110000
+1(
+1#
+1$
+b1000 +
+b1000 .
+#120000
+0(
+0!
+1&
+0#
+0$
+b0 )
+b0 /
+b10 +
+b10 .
+#130000
+1,
+b100 +
+b100 .
+#140000
+1!
+1%
+0&
+1#
+1$
+b100011 +
+b100011 .
+#150000
