@@ -1,6 +1,6 @@
 # Single Cycle MIPS CPU in Verilog (单周期CPU电路设计)
 
-Implementing a **single cycle MIPS CPU** in Verilog with simulation and proof of correctness by **Jimmy Wang (王俊崴 22302016002).**
+Implementing a **single cycle MIPS CPU** in Verilog with simulation and proof of correctness by **Jimmy Wang**.
 
 # 📖 Table of Contents
 
